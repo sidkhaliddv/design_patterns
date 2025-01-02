@@ -1,6 +1,6 @@
-import { BusCreator } from "./creators/BusCreator";
-import { CarCreator } from "./creators/CarCreator";
-import { TruckCreator } from "./creators/TruckCreator";
+import { BusCreator } from "./factories/BusCreator";
+import { CarCreator } from "./factories/CarCreator";
+import { TruckCreator } from "./factories/TruckCreator";
 
 const truck = new TruckCreator().create()
 console.log(truck.move())
